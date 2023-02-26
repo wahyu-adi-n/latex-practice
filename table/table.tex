@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[table]{xcolor} % import library/package untuk warna pada table
+
+% define my color
+\definecolor{Gray}{gray}{0.99}
+%\columncolor[RGB]{230, 242, 255}
+%\columncolor[HTML]{AAACED}
+
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{green}}c}
+\newcolumntype{m}{>{\columncolor{red}}c} % cara 1 memberi warna pada kolom 
+\arrayrulecolor{black} % membuat border color menjadi biru
+
+\begin{document}
+    \begin{center}
+        \begin{tabular}{| a | b | >{\columncolor{blue}}c |} %cara 2 memberi warna pada kolom
+            \hline % horizontal line
+            No. & Nama & NIM \\
+            \hline 
+            \rowcolor{blue}
+            1   & \cellcolor{brown} Wahyu Adi Nugroho & A11.2019.12310 \\
+            2   & Amanda Nur Cahyati & A11.2019.12311 \\
+            3   & Ganjar Pranowo & A11.2019.12312 \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & \multicolumn{3}{c|}{ Evaluation Metrics } \\ % colspan
+            \cline{2-4}
+            Algoritm & Precision & Recall & F1-Score \\
+            \hline
+            \rowcolor{red}
+            CNN & 99.5 & 99.2 & 99.1 \\
+            \hline            
+        \end{tabular}
+    \end{center}
+
+\end{document}
