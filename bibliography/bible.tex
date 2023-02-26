@@ -1,0 +1,13 @@
+\documentclass{article}
+% Include the biblatex package and tell it to use biber as a backend.
+% Without specifying the backend, it assumes biber.
+\usepackage[backend=biber]{biblatex}
+% Define where biber can find your sources
+\addbibresource{sources.bib}
+\begin{document}
+"Biber isn't that difficult." \cite{Doe1993}
+"Halo" \cite{Adi}
+% Use \cite{source-ID} to generate a citation
+% Print the bibliography
+\printbibliography
+\end{document}

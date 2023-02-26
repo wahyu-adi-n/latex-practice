@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'bible.blg'
+[114] biber:322> INFO - === Min Feb 26, 2023, 23:34:25
+[135] Biber.pm:415> INFO - Reading 'bible.bcf'
+[242] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[268] Biber.pm:4256> INFO - Processing section 0
+[269] Utils.pm:75> INFO - Globbing data source 'sources.bib'
+[269] Utils.pm:91> INFO - Globbed data source 'sources.bib' to sources.bib
+[285] Biber.pm:4455> INFO - Looking for bibtex format file 'sources.bib' for section 0
+[300] bibtex.pm:1653> INFO - LaTeX decoding ...
+[304] bibtex.pm:1471> INFO - Found BibTeX data source 'sources.bib'
+[368] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[368] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[369] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[369] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[377] bbl.pm:652> INFO - Writing 'bible.bbl' with encoding 'UTF-8'
+[382] bbl.pm:755> INFO - Output to bible.bbl
