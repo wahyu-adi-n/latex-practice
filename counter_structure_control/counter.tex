@@ -8,15 +8,10 @@
 \thenum\\%prints 10
 \stepcounter{num}
 \thenum\\%prints 11
-\multiply\value{num} by \value{num}
+\multiply \value{num} by \value{num}
 \thenum\\%prints 121
-\multiply\value{num} by 2
+\multiply \value{num} by 2
 \thenum\\%prints 242
-\divide\value{num} by 60
-\thenum%prints 4
-\end{document}\documentclass{article}
-
-\begin{document}
-    \addtocontents{10}{1}
-    \thenum
+\divide \value{num} by 60
+\thenum %prints 4
 \end{document}
